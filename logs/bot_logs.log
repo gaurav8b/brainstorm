@@ -1,0 +1,73 @@
+2024-10-22 22:35:52 INFO: Train dataset contains 12801 samples.
+2024-10-22 22:35:52 INFO: GPU available: False, used: False
+2024-10-22 22:35:52 INFO: TPU available: False, using: 0 TPU cores
+2024-10-22 22:35:52 INFO: HPU available: False, using: 0 HPUs
+2024-10-22 22:35:52 INFO: 
+  | Name            | Type             | Params | Mode 
+-------------------------------------------------------------
+0 | criterion       | MSELoss          | 0      | train
+1 | train_criterion | MSELoss          | 0      | train
+2 | val_criterion   | MSELoss          | 0      | train
+3 | train_metrics   | MetricCollection | 0      | train
+4 | val_metrics     | MetricCollection | 0      | train
+5 | stacks          | ModuleList       | 2.2 M  | train
+-------------------------------------------------------------
+1.7 M     Trainable params
+513 K     Non-trainable params
+2.2 M     Total params
+8.789     Total estimated model params size (MB)
+42        Modules in train mode
+0         Modules in eval mode
+2024-10-22 22:36:03 INFO: `Trainer.fit` stopped: `max_epochs=1` reached.
+2024-10-22 22:36:03 INFO: Train dataset contains 84798 samples.
+2024-10-22 22:36:03 INFO: GPU available: False, used: False
+2024-10-22 22:36:03 INFO: TPU available: False, using: 0 TPU cores
+2024-10-22 22:36:03 INFO: HPU available: False, using: 0 HPUs
+2024-10-22 22:36:03 WARNING: Attempting to retrain/fine-tune the model without resuming from a checkpoint. This is currently discouraged. Consider model `NHiTSModel.load_weights()` to load the weights for fine-tuning.
+2024-10-22 22:38:57 INFO: (N-HiTS): Using automatic kernel pooling size: ((800,), (28,), (1,)).
+2024-10-22 22:38:57 INFO: (N-HiTS):  Using automatic downsampling coefficients: ((800,), (28,), (1,)).
+2024-10-22 22:38:57 INFO: Train dataset contains 11201 samples.
+2024-10-22 22:38:57 INFO: Time series values are 64-bits; casting model to float64.
+2024-10-22 22:38:57 INFO: GPU available: False, used: False
+2024-10-22 22:38:57 INFO: TPU available: False, using: 0 TPU cores
+2024-10-22 22:38:57 INFO: HPU available: False, using: 0 HPUs
+2024-10-22 22:38:57 INFO: 
+  | Name            | Type             | Params | Mode 
+-------------------------------------------------------------
+0 | criterion       | MSELoss          | 0      | train
+1 | train_criterion | MSELoss          | 0      | train
+2 | val_criterion   | MSELoss          | 0      | train
+3 | train_metrics   | MetricCollection | 0      | train
+4 | val_metrics     | MetricCollection | 0      | train
+5 | stacks          | ModuleList       | 3.3 M  | train
+-------------------------------------------------------------
+2.5 M     Trainable params
+820 K     Non-trainable params
+3.3 M     Total params
+13.366    Total estimated model params size (MB)
+42        Modules in train mode
+0         Modules in eval mode
+2024-10-22 22:50:51 INFO: `Trainer.fit` stopped: `max_epochs=20` reached.
+2024-10-22 22:50:52 INFO: Train dataset contains 83198 samples.
+2024-10-22 22:50:52 INFO: GPU available: False, used: False
+2024-10-22 22:50:52 INFO: TPU available: False, using: 0 TPU cores
+2024-10-22 22:50:52 INFO: HPU available: False, using: 0 HPUs
+2024-10-22 22:50:52 WARNING: Attempting to retrain/fine-tune the model without resuming from a checkpoint. This is currently discouraged. Consider model `NHiTSModel.load_weights()` to load the weights for fine-tuning.
+2024-10-22 23:53:18 INFO: `Trainer.fit` stopped: `max_epochs=20` reached.
+2024-10-22 23:53:18 INFO: Train dataset contains 83201 samples.
+2024-10-22 23:53:18 INFO: GPU available: False, used: False
+2024-10-22 23:53:18 INFO: TPU available: False, using: 0 TPU cores
+2024-10-22 23:53:18 INFO: HPU available: False, using: 0 HPUs
+2024-10-22 23:53:18 WARNING: Attempting to retrain/fine-tune the model without resuming from a checkpoint. This is currently discouraged. Consider model `NHiTSModel.load_weights()` to load the weights for fine-tuning.
+2024-10-23 00:55:33 INFO: `Trainer.fit` stopped: `max_epochs=20` reached.
+2024-10-23 00:55:33 INFO: Train dataset contains 83201 samples.
+2024-10-23 00:55:33 INFO: GPU available: False, used: False
+2024-10-23 00:55:33 INFO: TPU available: False, using: 0 TPU cores
+2024-10-23 00:55:33 INFO: HPU available: False, using: 0 HPUs
+2024-10-23 00:55:33 WARNING: Attempting to retrain/fine-tune the model without resuming from a checkpoint. This is currently discouraged. Consider model `NHiTSModel.load_weights()` to load the weights for fine-tuning.
+2024-10-23 01:50:23 INFO: `Trainer.fit` stopped: `max_epochs=20` reached.
+2024-10-23 01:50:24 INFO: Train dataset contains 83201 samples.
+2024-10-23 01:50:24 INFO: GPU available: False, used: False
+2024-10-23 01:50:24 INFO: TPU available: False, using: 0 TPU cores
+2024-10-23 01:50:24 INFO: HPU available: False, using: 0 HPUs
+2024-10-23 01:50:24 WARNING: Attempting to retrain/fine-tune the model without resuming from a checkpoint. This is currently discouraged. Consider model `NHiTSModel.load_weights()` to load the weights for fine-tuning.
